@@ -1,0 +1,51 @@
+
+.iot-text-style {
+    font-family: "Sulphur Point", sans-serif;
+    color: #ff3d1c;
+    font-weight: 700;
+	font-size: 20px;
+	padding: 10px;
+}
+
+
+.iot-box {
+    background: white;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    margin: 10px;
+    span{
+		font-size: 30px;
+		font-weight: 700;
+		margin-bottom: 22px;
+		color:#ff3d1c;
+		display: inline-block;
+		font-family: $font_3;
+	}
+	h2 {
+		font-size: 35px;
+		font-family: "Sulphur Point", sans-serif;
+		display: block;
+		color: $heading-color;
+		font-weight: 600;
+		@media #{$sm}{
+			font-size: 31px;
+			text-align: left;
+		}
+		@media #{$xs}{
+			text-align: left;
+			font-size: 31px;
+		}
+	}
+
+
+}
+
+
+.anchor-btn{
+	padding: 10px 20px;
+	background: #fff;
+	color: #ff3d1c;
+	border-radius: 30px;
+}
