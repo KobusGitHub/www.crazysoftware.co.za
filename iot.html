@@ -64,6 +64,9 @@
                                                 <a href="#">Technology</a>
                                                 <ul class="submenu">
                                                     <li>
+                                                        <a href="winapp.html">Windows Applications</a>
+                                                    </li>
+                                                    <li>
                                                         <a href="websites.html">Websites</a>
                                                     </li>
                                                     <li>
@@ -129,7 +132,7 @@
                         </div>
                     </div>
                 </div>
-              
+
 
                 <!-- <a href="#opengarageandgatediy" style="	padding: 10px 20px;
                 background: #fff;
@@ -147,8 +150,8 @@
                             <div class="iot-text-style">
                                 The Wyze Cam is a very clever and small camera that connects to your WIFI and can be viewed from your mobile.
                             </div>
-                            <div style="padding-top: 100px;">
-                                <img src="assets/img/tech/WazeCam.PNG">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <img width="100%" src="assets/img/tech/WazeCam.PNG">
                             </div>
 
                         </div>
@@ -169,8 +172,8 @@
                                 <li>- The door has been open for X minutes; and</li>
                                 <li>- The door has been closed for X minutes.</li>
                             </div>
-                            <div style="padding-top: 10px;">
-                                <img src="assets/img/tech/WyzeSense.PNG">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <img width="100%" src="assets/img/tech/WyzeSense.PNG">
                             </div>
 
                         </div>
@@ -191,13 +194,13 @@
                                 <br>
                                 <br> In some cases, like my garage door, it wasn't possible to position the sensors in such a
                                 way to make connection when the garage door was closed.
-                                <br> I ended up putting the Wyze Sense on a hinch that falls away when the door opens and
-                                connects when the door closes.
+                                <br> I ended up putting the Wyze Sense on a hinch that falls away when the door opens and connects
+                                when the door closes.
                             </div>
 
                             <div class="row" style="padding-top: 50px; text-align: center;">
                                 <div class="col-lg-4 col-md-6 col-sm-6 ">
-                                    <video width="620" height="440" style="background: rgb(158, 157, 157); border-radius: 10px;" controls>
+                                    <video width="auto" height="440" style="background: rgb(158, 157, 157); border-radius: 10px;" controls>
                                         <source src="assets/videos/20191109_133012.mp4" type="video/mp4">
                                         <source src="movie.ogg" type="video/ogg"> Your browser does not support the video tag.
                                     </video>
@@ -222,9 +225,10 @@
                                 <br> I ended up wrapping the sense in the tube and it still works fine even in the rain.
                             </div>
 
-                            <div style="padding: 50px;">
-                                <img width="320" height="240" src="assets/img/tech/gate.jpg">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <img width="100%" src="assets/img/tech/gate.jpg">
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -238,14 +242,15 @@
                             </div>
                             <div class="iot-text-style">
                                 The Sonoff switch works like a normal switch you have to power an appliance, but instead of manully switching it yourself
-                                you use a mobile app to switch appliances on and off.<br>
-                                <br> The application has many functions e.g. a scheduler to switch appliances on and off at
-                                certain times or, with the Sonoff inching feature you can automatically switch the appliance off
+                                you use a mobile app to switch appliances on and off.
+                                <br>
+                                <br> The application has many functions e.g. a scheduler to switch appliances on and off at certain
+                                times or, with the Sonoff inching feature you can automatically switch the appliance off
                                 after some time.
                             </div>
 
-                            <div style="padding: 50px;">
-                                <img width="320" height="240" src="assets/img/tech/sonoff.PNG">
+                            <div class="col-lg-3 col-md-3 col-sm-12">
+                                <img width="100%" src="assets/img/tech/sonoff.PNG">
                             </div>
                         </div>
                     </div>
@@ -267,7 +272,7 @@
 
                             <div class="row" style="padding-top: 50px; text-align: center;">
                                 <div class="col-lg-4 col-md-6 col-sm-6 ">
-                                    <video width="620" height="440" style="background: rgb(158, 157, 157); border-radius: 10px;" controls>
+                                    <video width="auto" height="440" style="background: rgb(158, 157, 157); border-radius: 10px;" controls>
                                         <source src="assets/videos/garage-gate.mp4" type="video/mp4">
                                         <source src="movie.ogg" type="video/ogg"> Your browser does not support the video tag.
                                     </video>
@@ -284,9 +289,9 @@
                                 <br> This to me was always risky. I didn't want to end up replacing a very expensive motor because
                                 of a hobby I was trying out.
                                 <br>
-                                <br> I therefor thought that if I could integrate with the remote that is already programmed to open
-                                the door, the worse that could happen, was the replacement of a remote and not an expensive
-                                motor.
+                                <br> I therefor thought that if I could integrate with the remote that is already programmed
+                                to open the door, the worse that could happen, was the replacement of a remote and not an
+                                expensive motor.
                                 <br>
                                 <br> So I opened up my remote and had a look at the button you press to open the gate.
                                 <br> Most buttons will look something like this:
@@ -298,39 +303,44 @@
                                 the button. This is where we are using the Sonoff switch.
                                 <br> But the sonoff switch by default has a power output. We don't want a power output to go
                                 to the remote. We only want to open or close the connection to the red or purple lines.
-                                <br> There is only one extra component required in order to do that. It is called a Relay switch that you
-                                can pick up at any electrical shop.
+                                <br> There is only one extra component required in order to do that. It is called a Relay switch
+                                that you can pick up at any electrical shop.
                                 <br>
                                 <img width="100" height="170" src="assets/img/tech/Relay.PNG"> How a relay works, consider this drawing:
                                 <br>
-                                <img width="800" height="400" src="assets/img/tech/relayDrawing.PNG">
+                                <!-- <img width="800" height="400" src="assets/img/tech/relayDrawing.PNG"> -->
+
+                                <img width="100%" max-height="400" src="assets/img/tech/relayDrawing.PNG">
+
                                 <br>
                                 <br> A relay has 2 modes.
                                 <b>Normally Open</b> or
                                 <b>Normally Closed</b>.
                                 <br> Normally open - means that the connection will be open if you don't give power to the relay
                                 and close when you do.
-                                <br> Normally close - means that the connection will be closed if you don't give it power to the
-                                relay and open when you do.
+                                <br> Normally close - means that the connection will be closed if you don't give it power to
+                                the relay and open when you do.
                                 <br>
                                 <br> We need the 2 pins on that switch to be open (not connected) until we want to switch it,
-                                then those 2 pins need to close (connect). So we will configure it in a normally open
-                                mode as the diagram shows.
+                                then those 2 pins need to close (connect). So we will configure it in a normally open mode
+                                as the diagram shows.
                                 <br>
                                 <br> Here is the full wiring diagram:
                                 <br>
-                                <img width="auto" height="400" src="assets/img/tech/fullDrawing.PNG">
+                                <img width="100%" max-height="400" src="assets/img/tech/fullDrawing.PNG">
                                 <br>
                                 <br> For 2 applications like the garage and the gate you will need 2 Sonoff switches and 2 relays
                                 connecting to the 2 buttons.
                                 <br>
-                                <br> Because you want the button to be pressed and released after a second, you need to use
-                                the Inching feature on the Sonoff to do that.
+                                <br> Because you want the button to be pressed and released after a second, you need to use the
+                                Inching feature on the Sonoff to do that.
                                 <br>
                                 <br> Don't let the picture below scare you. I just allowed a lot of wiring in a small box.
                                 <br>
                                 <br>
-                                <img width="auto" height="600" src="assets/img/tech/2Switch.jpg">
+                                <div class="col-lg-5 col-md-5 col-sm-12">
+                                    <img width="100%" src="assets/img/tech/2Switch.jpg">
+                                </div>
                             </div>
 
 
@@ -360,7 +370,7 @@
                                 <br>
                                 <br> Consider the wiring diagram:
                                 <br>
-                                <img width="620" height="240" src="assets/img/tech/DIYwiring.PNG">
+                                <img width="100%" max-height="240" src="assets/img/tech/DIYwiring.PNG">
                                 <br>
                                 <br>
 
@@ -368,7 +378,10 @@
                             </div>
 
                             <div style="padding: 50px;">
-                                <img width="320" height="440" src="assets/img/tech/1Switch.jpg">
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <img width="100%" src="assets/img/tech/1Switch.jpg">
+                                </div>
+
                                 <br>
                                 <br>
 
@@ -378,20 +391,60 @@
                 </div>
 
 
+                
+                <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <div class="iot-box">
+                                <div>
+                                    <h2>
+                                        <a id="opengarageandgatediy"></a>Mains power indicator for generators</h2>
+                                </div>
+                               
+                                <div class="iot-text-style">
+                                        In the video below im using a sonoff contact switch, but I will explain below how to use a Wyze Sense to do the same thing.<br>
+                                        Wyze just have so many features you can use for this application.
 
-                <!-- <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-location mb-30">
-                            <div class="location-img">
-                                <img src="assets/img/websites/splash-small-light.png" alt="">
-                            </div>
-                            <div class="location-details">
-                                <p>Home Budget</p>
-                                <a href="https://jonkerbudget.firebaseapp.com/#/" class="location-btn">Explore</a>
+                                    </div>
+
+                                    
+                                <div class="row" style="padding-top: 50px; text-align: center;">
+                                        <div class="col-lg-4 col-md-6 col-sm-6 ">
+                                            <video width="auto" height="440" style="background: rgb(158, 157, 157); border-radius: 10px;" controls>
+                                                <source src="assets/videos/generator.mp4" type="video/mp4">
+                                                <source src="movie.ogg" type="video/ogg"> Your browser does not support the video tag.
+                                            </video>
+                                        </div>
+                                    </div>
+
+    
+                                <div class="iot-text-style">
+                                    I have a generator that we use when we have power custs.<br>
+                                    The problem was always to know when the power is back on because my entire home is running of the generator<br>
+                                    <br>
+                                    I noticed that in South Africa we have a law that states that the switchover switch for a generator must have a light indicating the main power is on or off.<br>
+                                    <br>
+                                    The Wyze sens basiclly consist of a glass tube with 1 borken wire inside. When a magnet is close to the tube, the wire connects, when it is taken away, the wire inside the tube disconnects.<br>
+                                    This is the way the Wyze sense knows if the (door) is closed or not. <br>
+                                    <br>
+                                    What we can do is to have a relay, powered by the main light, swithing the Wayze Sense.<br>
+                                    Once we have the Wyze sense registering the change, we can have the Wyze app do anything like sending a push notification to my phone or sounding an alarm like the video above, indicating the mains power is back on.
+
+
+                                    <br> Consider the wiring diagram:
+                                    <br>
+                                    <img width="100%" max-height="240" src="assets/img/tech/gen.PNG">
+                                    <br>
+                                    <br>
+    
+    
+                                </div>
+    
+                               
                             </div>
                         </div>
                     </div>
-                </div> -->
+
+
 
 
             </div>
@@ -424,7 +477,7 @@
                                             <a href="#">Home</a>
                                         </li>
                                         <li>
-                                            <a href="#">Contact</a>
+                                            <a href="contact.html">Contact</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -435,6 +488,9 @@
                                 <div class="footer-tittle">
                                     <h4>Technology</h4>
                                     <ul>
+                                        <li>
+                                            <a href="winapp.html">Windows Applications</a>
+                                        </li>
                                         <li>
                                             <a href="websites.html">Websites</a>
                                         </li>
